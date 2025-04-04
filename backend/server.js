@@ -5,14 +5,14 @@ const generateRoutes = require("./routes/generate.route")
 
 const app = express();
 
-// Middleware
+
 app.use(cors());
 app.use(express.json());
 
-// Routes
+
 
 app.use("/api/qs", uploadRoutes);
-app.use("/api/qs", generateRoutes);   // /generate
+app.use("/api/qs", generateRoutes);   
 
 
 
