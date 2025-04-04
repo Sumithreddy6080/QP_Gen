@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploaded files
+uploads/
+
+# Environment files
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Frontend build files
+build/
+dist/
+
+# Frontend dependencies
+bower_components/
+
+# Backend dependencies
+vendor/
+
+# Temporary files
+*.tmp
+*.cache
+
+# Debugging files
+debug.log
